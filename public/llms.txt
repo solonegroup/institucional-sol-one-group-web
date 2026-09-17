@@ -1,0 +1,11 @@
+# S.O.L ONE
+
+> S.O.L ONE — Systems. Operations. Leadership. Plataforma que integra estratégia e operação para construir estruturas de alto desempenho, com quatro braços de atuação: equity, serviços premium, assessoria recorrente e infraestrutura/segurança.
+
+## Pages
+
+- [Home](/): Manifesto, grupo S.O.L ONE e visão geral das quatro frentes.
+- [S.O.L & Projects](/grupo/projects): Negócios em que entramos com equity e construção de valor de longo prazo.
+- [S.O.L & Services](/grupo/services): Execução premium e multidisciplinar para desafios de alta complexidade.
+- [S.O.L & Assistance](/grupo/assistance): Assessoria técnica recorrente em hardware, software e desenvolvimento de soluções.
+- [S.O.L & Security](/grupo/security): Infraestrutura sólida e segurança cibernética efetiva.
