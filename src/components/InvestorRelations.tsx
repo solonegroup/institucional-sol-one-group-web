@@ -151,13 +151,7 @@ export const InvestorRelationsBand = () => {
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-sol-highlight to-transparent opacity-60" />
       <div className="section-padding py-10 md:py-14">
         <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-center">
-          <div className="md:col-span-2 flex items-center gap-3">
-            <span className="h-px w-8 bg-sol-accent" />
-            <span className="text-sol-accent text-[10px] tracking-[0.3em] uppercase font-display whitespace-nowrap">
-              {c.bandEyebrow}
-            </span>
-          </div>
-          <div className="md:col-span-7">
+          <div className="md:col-span-9">
             <p className="font-display text-lg md:text-xl text-foreground leading-snug">
               {c.bandHeadline}
             </p>
