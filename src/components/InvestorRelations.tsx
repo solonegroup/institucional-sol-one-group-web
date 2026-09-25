@@ -142,7 +142,6 @@ export const InvestorContactPopover = ({ open, onClose, anchor = "band", hideTit
 export const InvestorRelationsBand = () => {
   const { t } = useLanguage();
   const c = t.investor;
-  const [open, setOpen] = useState(false);
 
   return (
     <section
@@ -167,17 +166,15 @@ export const InvestorRelationsBand = () => {
             </p>
           </div>
           <div className="md:col-span-3 flex md:justify-end relative">
-            <button
-              type="button"
-              onClick={() => setOpen((v) => !v)}
-              aria-expanded={open}
-              aria-haspopup="dialog"
+            <a
+              href={buildWhatsAppHref(c.whatsappMessage)}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-6 py-3 border border-sol text-sol-text text-[11px] tracking-[0.25em] hover:border-sol-accent hover:text-sol-accent transition-all duration-300"
             >
               {c.bandCta}
               <ArrowUpRight className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-            </button>
-            <InvestorContactPopover open={open} onClose={() => setOpen(false)} anchor="band" />
+            </a>
           </div>
         </div>
       </div>
